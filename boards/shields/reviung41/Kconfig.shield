@@ -2,4 +2,4 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_REVIUNG41
-    def_bool $(shields_list_contains,reviung41)
+    def_bool $(shields_list_contains,reviung41_fix)
