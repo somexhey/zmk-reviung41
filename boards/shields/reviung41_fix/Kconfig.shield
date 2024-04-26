@@ -1,5 +1,5 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_REVIUNG41
+config SHIELD_REVIUNG41_FIX
     def_bool $(shields_list_contains,reviung41_fix)
