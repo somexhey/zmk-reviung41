@@ -5,17 +5,11 @@ if SHIELD_REVIUNG41_FIX
 
 config ZMK_KEYBOARD_NAME
     default "Rev41"
-config ZMK_BLE_EXPERIMENTAL_CONN
-    default y
 config ZMK_SLEEP
     default y
 config ZMK_IDLE_SLEEP_TIMEOUT
     default 900000
 config ZMK_PM_SOFT_OFF
-    default y
-config BT
-    default y
-config ZMK_BLE
     default y
 
 endif
